@@ -1,0 +1,16 @@
+# Product Quality Checker (Postman Test Script)
+
+This script is designed to validate product data returned from an API. It checks for:
+
+- Missing or empty titles
+- Negative prices
+- Ratings exceeding 5
+
+## How to Use
+
+1. Import this script into Postman's "Tests" tab.
+2. Send a request to your product API.
+3. The script will:
+   - Validate the response.
+   - Log defective products to the console.
+   - Store them in the environment variable `defectiveProducts`.
